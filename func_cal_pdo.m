@@ -1,5 +1,12 @@
 %##########################################################################
-%https://github.com/ZijieZhaoMMHW/Cal_CM
+% References:
+% https://github.com/ZijieZhaoMMHW/Cal_CM
+% Input:
+% tos: temperature (3D array)
+% lon,lat: longitude, latitude information (regular grid, 1degx1deg)
+% Output:
+% pdo_p, pdo_idx : spatial and temporal info
+% lon_r, lat_r: regional lon, lat, used for plotting
 %##########################################################################
 
 function [pdo_p,pdo_idx,lon_r,lat_r] = func_cal_pdo(tos,lon,lat)
