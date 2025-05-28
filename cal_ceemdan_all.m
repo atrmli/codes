@@ -1,3 +1,13 @@
+%##########################################################################
+% References:
+% https://perso.ens-lyon.fr/patrick.flandrin/emd.html
+% Input:
+% x: time series
+% Output:
+% rslt : modes
+% contribution, period: contribution, period for each mode
+%##########################################################################
+
 function [rslt,contribution,period]=cal_ceemdan_all(x)
 
 Nstd = 0.2;
